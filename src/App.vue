@@ -1,20 +1,13 @@
 <template>
-    <div id="nav">
-        <router-link to="/home">Home</router-link>
-        <router-link to="/about">About</router-link>
-        <router-link to="/demo">Demo</router-link>
-        <router-link to="/login">Login</router-link>
-    </div>
-  <router-view/>
+    <router-view></router-view>
 </template>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="less" scoped>
+    html,
+    body,
+    #app{
+        height: 100vh;
+        padding: 0;
+        margin: 0;
+    }
 </style>
