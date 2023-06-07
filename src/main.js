@@ -5,9 +5,12 @@ import router from './router'
 import 'element-plus/dist/index.css'
 import ElementPlus from 'element-plus'
 import * as ElementPlusIconsVue from '@element-plus/icons-vue'
+<<<<<<< HEAD
 import setItemEvent from './utils/setItemEvent.js'
 
 
+=======
+>>>>>>> beda06369169a4ed3b730f5d2ddc61632d559ecc
 // 导入axios，设置默认baseURL
 import axios from 'axios'
 axios.defaults.baseURL = 'http://localhost:2345/api'
@@ -27,7 +30,11 @@ axios.interceptors.request.use(
 const app = createApp(App)
 for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
     app.component(key, component)
+<<<<<<< HEAD
 }
+=======
+  }
+>>>>>>> beda06369169a4ed3b730f5d2ddc61632d559ecc
 // 启动我们需要的插件
 app.use(router)
 app.use(ElementPlus)
@@ -35,4 +42,7 @@ app.use(ElementPlus)
 app.config.globalProperties.$axios = axios
 // 挂载app
 app.mount('#app')
+<<<<<<< HEAD
 app.use(setItemEvent)
+=======
+>>>>>>> beda06369169a4ed3b730f5d2ddc61632d559ecc
