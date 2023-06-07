@@ -30,8 +30,8 @@ papershare
 
 ## 应用截图
 1. 课程页面
-![课程页面](/screen_shot/courses.png "课程页面")
+![课程页面](./screen_shot/courses.png "课程页面")
 2. 试题页面
-![试题页面](/screen_shot/paper.png "试题页面")
+![试题页面](./screen_shot/paper.png "试题页面")
 3. 个人上传页面
-![个人上传页面](/screen_shot/upload.png "个人上传页面")
+![个人上传页面](./screen_shot/upload.png "个人上传页面")
